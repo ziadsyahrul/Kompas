@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414"
+    android:foregroundGravity="center|center_horizontal"
+    android:focusableInTouchMode="false">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_light"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvHeading"
+        android:layout_marginTop="-62dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/prompt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvHeading"
+        android:layout_marginTop="-62dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Heading 0"
+        android:textColor="#ffffff"
+        android:textSize="28dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/background_compass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvHeading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-39dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/compass"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/miui_cover"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvHeading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- App by - Ziad Syahrul Mubarak"
+        android:id="@+id/textView"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#acacac"
+        android:textSize="14dp" />
+
+</RelativeLayout>
